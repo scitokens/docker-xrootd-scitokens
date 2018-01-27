@@ -15,9 +15,9 @@ To use, start a docker container with the following command:
 
 ```
 docker run  -t -i \
-    -p 127.0.0.1:443:1094
+    -p 127.0.0.1:443:1094 \
     --volume /etc/grid-security/:/etc/grid-security \
-    --volume /tmp/exportfiles:/export
+    --volume /tmp/exportfiles:/export \
     scitokens/xrootd-scitokens
 ```
 
