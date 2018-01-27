@@ -1,0 +1,6 @@
+[hcc]
+name=HCC Packages for Enterprise Linux 7 - $basearch
+baseurl=http://t2.unl.edu/store/repos/hcc/7/hcc-el7/$basearch
+enabled=1
+gpgcheck=0
+priority=9
