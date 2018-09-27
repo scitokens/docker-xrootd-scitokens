@@ -8,7 +8,7 @@ EXPOSE 443
 
 COPY hcc-testing.repo /etc/yum.repos.d/
 
-RUN yum -y install https://repo.grid.iu.edu/osg/3.4/osg-3.4-el7-release-latest.rpm && \
+RUN yum -y install https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el7-release-latest.rpm && \
     yum -y install epel-release \
                    yum-plugin-priorities
 
